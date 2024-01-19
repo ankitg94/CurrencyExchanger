@@ -16,7 +16,7 @@ for(let select of dropdown){
         if(select.name==="from" && currCode === "INR"){
             newOption.selected="selected";
         }
-        else if(select.name === "to" && currCode === "BDT"){
+        else if(select.name === "to" && currCode === "AED"){
             newOption.selected="selected";
         }
         select.append(newOption);
